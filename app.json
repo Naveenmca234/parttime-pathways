@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Part time Pathways",
+    "slug": "parttime-pathways",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#25457E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kj.parttimepathways"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#25457E"
+      },
+      "package": "com.kj.parttimepathways"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
